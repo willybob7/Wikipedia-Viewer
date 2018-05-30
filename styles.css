@@ -1,0 +1,46 @@
+.block {
+  height: 80vh;
+  text-align: center;
+}
+.block:before {
+  content: "";
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  margin-right: -0.25em;
+}
+.centered {
+  display: inline-block;
+  vertical-align: middle;
+}
+.one {
+  text-align: center;
+  margin: 30px;
+}
+h1 {
+  text-align: center;
+}
+
+strong {
+  font-size: 22px;
+  float: left;
+}
+p {
+  float: left;
+}
+.pop {
+  background: #c0c0c0;
+  border: #a0a0a0 solid 2px;
+  border-radius: 10px;
+  margin: 10px;
+  width: 100%;
+}
+.container {
+  width: 90%;
+}
+.input {
+  border-radius: 6px;
+}
+body{
+  font-family: Josefin Sans;
+}
